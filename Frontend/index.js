@@ -42,6 +42,7 @@ function renderShoe(shoe){
             <input type="submit" class="btn btn-primary"></input>
         </div>
     `
+    formContainer.innerHTML = ''
     formContainer.append(form)
     form.addEventListener("submit", (e)=> {
         e.preventDefault()
